@@ -11,7 +11,7 @@
                         
                     >
                 </v-avatar>
-        <v-toolbar-title class="display-1 font-weight-bold">Menu </v-toolbar-title>
+        <v-toolbar-title class="display-1 font-weight-bold">Menú </v-toolbar-title>
     </v-toolbar>
     <!-- Navigation drawer-->
     <v-navigation-drawer app v-model="mostrar" temporary absolute dark color="blue" class="text-center"
@@ -60,7 +60,11 @@
        </v-row>
         <v-row>
             <v-col >
-                <v-simple-table fixed-header class="elevation-3">
+                <v-simple-table
+      fixed-header
+      height="500px"
+    >
+                    
                     <template v-slot:default>
                         <thead>
                             <tr>
@@ -73,10 +77,10 @@
                         </thead>
                         <tbody>
                             <tr >
-                                <td class="text-center">123</td>
+                                <td class="text-center">128</td>
                                 <td class="text-center">Van Camp's</td>
                                 <td class="text-center">Atún</td>
-                                <td class="red--text text-center">24/09/2021</td>
+                                <td class="red--text text-center">28/09/2021</td>
                                 <td > 
                                     <v-btn fab small color="primary" class="mx-3" >
                                         <v-icon>mdi-pencil </v-icon>
@@ -88,10 +92,10 @@
 
                             </tr>
                             <tr >
-                                <td class="text-center">132</td>
+                                <td class="text-center">131</td>
                                 <td class="text-center">Fruco</td>
                                 <td class="text-center">Salsa de Tomate</td>
-                                <td class="red--text text-center">24/09/2021</td>
+                                <td class="red--text text-center">28/09/2021</td>
                                 <td > 
                                     <v-btn fab small color="primary" class="mx-3" >
                                         <v-icon>mdi-pencil </v-icon>
@@ -103,10 +107,130 @@
 
                             </tr>
                             <tr >
-                                <td class="text-center">125</td>
+                                <td class="text-center">120</td>
                                 <td class="text-center">Bary</td>
                                 <td class="text-center">Mayonesa</td>
-                                <td class="red--text text-center">24/09/2021</td>
+                                <td class="red--text text-center">28/09/2021</td>
+                                <td > 
+                                    <v-btn fab small color="primary" class="mx-3" >
+                                        <v-icon>mdi-pencil </v-icon>
+                                    </v-btn>
+                                    <v-btn fab small color="error" >
+                                        <v-icon>mdi-delete </v-icon>
+                                    </v-btn>
+                                </td>
+
+                            </tr>
+                             <tr >
+                                <td class="text-center">225</td>
+                                <td class="text-center">Bary</td>
+                                <td class="text-center">Mayonesa</td>
+                                <td class="red--text text-center">28/09/2021</td>
+                                <td > 
+                                    <v-btn fab small color="primary" class="mx-3" >
+                                        <v-icon>mdi-pencil </v-icon>
+                                    </v-btn>
+                                    <v-btn fab small color="error" >
+                                        <v-icon>mdi-delete </v-icon>
+                                    </v-btn>
+                                </td>
+
+                            </tr>
+                            <tr >
+                                <td class="text-center">025</td>
+                                <td class="text-center">Bary</td>
+                                <td class="text-center">Mayonesa</td>
+                                <td class="red--text text-center">28/09/2021</td>
+                                <td > 
+                                    <v-btn fab small color="primary" class="mx-3" >
+                                        <v-icon>mdi-pencil </v-icon>
+                                    </v-btn>
+                                    <v-btn fab small color="error" >
+                                        <v-icon>mdi-delete </v-icon>
+                                    </v-btn>
+                                </td>
+
+                            </tr>
+                            <tr >
+                                <td class="text-center">025</td>
+                                <td class="text-center">Bary</td>
+                                <td class="text-center">Mayonesa</td>
+                                <td class="red--text text-center">28/09/2021</td>
+                                <td > 
+                                    <v-btn fab small color="primary" class="mx-3" >
+                                        <v-icon>mdi-pencil </v-icon>
+                                    </v-btn>
+                                    <v-btn fab small color="error" >
+                                        <v-icon>mdi-delete </v-icon>
+                                    </v-btn>
+                                </td>
+
+                            </tr>
+                            <tr >
+                                <td class="text-center">145</td>
+                                <td class="text-center">Bary</td>
+                                <td class="text-center">Mayonesa</td>
+                                <td class="red--text text-center">28/09/2021</td>
+                                <td > 
+                                    <v-btn fab small color="primary" class="mx-3" >
+                                        <v-icon>mdi-pencil </v-icon>
+                                    </v-btn>
+                                    <v-btn fab small color="error" >
+                                        <v-icon>mdi-delete </v-icon>
+                                    </v-btn>
+                                </td>
+
+                            </tr>
+                            <tr >
+                                <td class="text-center">192</td>
+                                <td class="text-center">Fruco</td>
+                                <td class="text-center">Salsa de Tomate</td>
+                                <td class="red--text text-center">28/09/2021</td>
+                                <td > 
+                                    <v-btn fab small color="primary" class="mx-3" >
+                                        <v-icon>mdi-pencil </v-icon>
+                                    </v-btn>
+                                    <v-btn fab small color="error" >
+                                        <v-icon>mdi-delete </v-icon>
+                                    </v-btn>
+                                </td>
+
+                            </tr>
+                            <tr >
+                                <td class="text-center">172</td>
+                                <td class="text-center">Fruco</td>
+                                <td class="text-center">Salsa de Tomate</td>
+                                <td class="red--text text-center">28/09/2021</td>
+                                <td > 
+                                    <v-btn fab small color="primary" class="mx-3" >
+                                        <v-icon>mdi-pencil </v-icon>
+                                    </v-btn>
+                                    <v-btn fab small color="error" >
+                                        <v-icon>mdi-delete </v-icon>
+                                    </v-btn>
+                                </td>
+
+                            </tr>
+                            <tr >
+                                <td class="text-center">102</td>
+                                <td class="text-center">Fruco</td>
+                                <td class="text-center">Salsa de Tomate</td>
+                                <td class="red--text text-center">28/09/2021</td>
+                                <td > 
+                                    <v-btn fab small color="primary" class="mx-3" >
+                                        <v-icon>mdi-pencil </v-icon>
+                                    </v-btn>
+                                    <v-btn fab small color="error" >
+                                        <v-icon>mdi-delete </v-icon>
+                                    </v-btn>
+                                </td>
+
+                            </tr>
+                            <tr >
+                                <td class="text-center">103</td>
+                                <td class="text-center">Van Camp's</td>
+                                <td class="text-center">Atún</td>
+                                <td class="red--text text-center">28/09/2021</td>
                                 <td > 
                                     <v-btn fab small color="primary" class="mx-3" >
                                         <v-icon>mdi-pencil </v-icon>
